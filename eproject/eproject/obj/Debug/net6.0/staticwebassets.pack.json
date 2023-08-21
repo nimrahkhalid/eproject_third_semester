@@ -1,247 +1,1691 @@
 {
   "Files": [
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\eproject.bundle.scp.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\eproject.bundle.scp.css",
       "PackagePath": "staticwebassets\\eproject.bundle.scp.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\css\\chosen-sprite.png"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\favicon.ico",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\css\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\color.css",
+      "PackagePath": "staticwebassets\\css\\color.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\jquery-wizard.css",
+      "PackagePath": "staticwebassets\\css\\jquery-wizard.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\lightbox.html",
+      "PackagePath": "staticwebassets\\css\\lightbox.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\css\\uikit.min.css",
+      "PackagePath": "staticwebassets\\css\\uikit.min.css"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images.html",
+      "PackagePath": "staticwebassets\\images.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\activity.png",
+      "PackagePath": "staticwebassets\\images\\activity.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\android.png",
+      "PackagePath": "staticwebassets\\images\\android.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\apple.png",
+      "PackagePath": "staticwebassets\\images\\apple.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\arrow-down.svg",
+      "PackagePath": "staticwebassets\\images\\arrow-down.svg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge1.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge10.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge10.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge11.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge11.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge12.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge12.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge13.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge13.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge14.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge14.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge15.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge15.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge16.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge16.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge17.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge17.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge19.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge19.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge2.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge20.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge20.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge21.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge21.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge3.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge4.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge4.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge5.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge5.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge6.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge6.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge7.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge7.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge8.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge8.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\badge9.png",
+      "PackagePath": "staticwebassets\\images\\badges\\badge9.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year1.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year10.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year10.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year2.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year3.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year4.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year4.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year5.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year5.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year6.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year6.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year7.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year7.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year8.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year8.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\badges\\year9.png",
+      "PackagePath": "staticwebassets\\images\\badges\\year9.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\bank.png",
+      "PackagePath": "staticwebassets\\images\\bank.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\bg-4.png",
+      "PackagePath": "staticwebassets\\images\\bg-4.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\bitcoin.png",
+      "PackagePath": "staticwebassets\\images\\bitcoin.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\box-icon1.png",
+      "PackagePath": "staticwebassets\\images\\box-icon1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\box-icon2.png",
+      "PackagePath": "staticwebassets\\images\\box-icon2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\brand1.png",
+      "PackagePath": "staticwebassets\\images\\brand1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\brand3.png",
+      "PackagePath": "staticwebassets\\images\\brand3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\brand4.png",
+      "PackagePath": "staticwebassets\\images\\brand4.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\brand5.png",
+      "PackagePath": "staticwebassets\\images\\brand5.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\clock.png",
+      "PackagePath": "staticwebassets\\images\\clock.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\d-tick.png",
+      "PackagePath": "staticwebassets\\images\\d-tick.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\dhl.png",
+      "PackagePath": "staticwebassets\\images\\dhl.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\dot-pattern.html",
+      "PackagePath": "staticwebassets\\images\\dot-pattern.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\dynamic-programming-header-2048x1367.jpg",
+      "PackagePath": "staticwebassets\\images\\dynamic-programming-header-2048x1367.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\avatar-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\avatar-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\avatar-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\dark.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\dark.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\image.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\image.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\image2.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\image2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\image3.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\image3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\image4.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\image4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\light.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\light.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\slider1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\slider2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\slider3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\slider4.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\slider4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\elements\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\elements\\user-avatar.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\fav.png",
+      "PackagePath": "staticwebassets\\images\\fav.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\fedex.png",
+      "PackagePath": "staticwebassets\\images\\fedex.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\001-united-kingdom.png",
+      "PackagePath": "staticwebassets\\images\\flags\\001-united-kingdom.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\002-united-states.png",
+      "PackagePath": "staticwebassets\\images\\flags\\002-united-states.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\003-france.png",
+      "PackagePath": "staticwebassets\\images\\flags\\003-france.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\004-germany.png",
+      "PackagePath": "staticwebassets\\images\\flags\\004-germany.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\005-spain.png",
+      "PackagePath": "staticwebassets\\images\\flags\\005-spain.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\006-china.png",
+      "PackagePath": "staticwebassets\\images\\flags\\006-china.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\007-italy.png",
+      "PackagePath": "staticwebassets\\images\\flags\\007-italy.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\008-japan.png",
+      "PackagePath": "staticwebassets\\images\\flags\\008-japan.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\009-brazil.png",
+      "PackagePath": "staticwebassets\\images\\flags\\009-brazil.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\010-south-korea.png",
+      "PackagePath": "staticwebassets\\images\\flags\\010-south-korea.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\flags\\US.png",
+      "PackagePath": "staticwebassets\\images\\flags\\US.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\footer.png",
+      "PackagePath": "staticwebassets\\images\\footer.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\giphy.png",
+      "PackagePath": "staticwebassets\\images\\giphy.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\image.png",
+      "PackagePath": "staticwebassets\\images\\image.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\live-stream.png",
+      "PackagePath": "staticwebassets\\images\\live-stream.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\loader.html",
+      "PackagePath": "staticwebassets\\images\\loader.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\logo2.html",
+      "PackagePath": "staticwebassets\\images\\logo2.html"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\mockup.png",
+      "PackagePath": "staticwebassets\\images\\mockup.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\news-icon.png",
+      "PackagePath": "staticwebassets\\images\\news-icon.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\images\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\paypal.png",
+      "PackagePath": "staticwebassets\\images\\paypal.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\Credit-Card-Logos.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\Credit-Card-Logos.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\ad-widget2.gif",
+      "PackagePath": "staticwebassets\\images\\resources\\ad-widget2.gif"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\album1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\album1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\album2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\album2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\album4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\album4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\album5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\album5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\album6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\album6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-detail.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-detail.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-detail.png",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-detail.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-list-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-list-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-list-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-list-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-list-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-list-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-list-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-list-4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog-list-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog-list-5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\blog3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\blog3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\book9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\book9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\cart1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\cart1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\cart2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\cart2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\cart3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\cart3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\chatlist1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\chatlist1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\chatlist2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\chatlist2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\commenter-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\commenter-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\commenter-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\commenter-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\commenter-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\commenter-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company1.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company2.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company3.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company4.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company4.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company5.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company5.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company6.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company6.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company7.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company7.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\company8.png",
+      "PackagePath": "staticwebassets\\images\\resources\\company8.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-2.png",
+      "PackagePath": "staticwebassets\\images\\resources\\course-2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\course-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\course-6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\error.png",
+      "PackagePath": "staticwebassets\\images\\resources\\error.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-detail.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-detail.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-post7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-post7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-small.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-small.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\event-small2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\event-small2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\footer-bg.png",
+      "PackagePath": "staticwebassets\\images\\resources\\footer-bg.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\form-wizard-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\form-wizard-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\friend-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\friend-avatar.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\friend-avatar2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\friend-avatar2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\friend-avatar3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\friend-avatar3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\friend-avatar4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\friend-avatar4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\friend-avatar5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\friend-avatar5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\frnd-figure2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\frnd-figure2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\frnd-figure3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\frnd-figure3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\gallery-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\gallery-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\gallery-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-avatar.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-avatar2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-avatar2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-avatar3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-avatar3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-avatar4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-avatar4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-background.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-background.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-background2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-background2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-background3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-background3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-background4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-background4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-dp.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-dp.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group-profile.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group11.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group11.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\group9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\group9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\image6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\image6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\laptop.png",
+      "PackagePath": "staticwebassets\\images\\resources\\laptop.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\login-1.png",
+      "PackagePath": "staticwebassets\\images\\resources\\login-1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\login-2.png",
+      "PackagePath": "staticwebassets\\images\\resources\\login-2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\login-3.png",
+      "PackagePath": "staticwebassets\\images\\resources\\login-3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\login-bg.png",
+      "PackagePath": "staticwebassets\\images\\resources\\login-bg.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\login-bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\login-bg3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\paralex-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\paralex-bg.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-detail.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-detail.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video11.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video11.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\post-video9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\post-video9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\postby1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\postby1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\postby2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\postby2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\postby3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\postby3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-ad-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-ad-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-ad-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-ad-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\product-full.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\product-full.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\profile-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\profile-banner.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\recentlink-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\recentlink-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\recentlink-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\recentlink-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\recentlink-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\recentlink-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\research-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\research-avatar.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\research-avatar2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\research-avatar2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sidebar-info.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sidebar-info.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sidebar-info2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sidebar-info2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\slider3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-11.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-11.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-12.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-12.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\speak-9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\speak-9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor-prod1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor-prod1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor-prod2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor-prod2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor-prod3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor-prod3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor-prod4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor-prod4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor-prod5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor-prod5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor.png",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sponsor2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sponsor2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\story-card.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\story-card.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\story-card2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\story-card2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\story-card3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\story-card3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\story-card4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\story-card4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\story-card5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\story-card5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\study.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\study.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sug-page-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sug-page-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sug-page-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sug-page-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sug-page-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sug-page-3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sug-page-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sug-page-4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\sug-page-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\sug-page-5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\top-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\top-bg.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\top-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\top-bg2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\uni1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\uni1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\uni3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\uni3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\uni4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\uni4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic11.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic11.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic12.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic12.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic13.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic13.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic14.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic14.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic15.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic15.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-pic9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-pic9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video10.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video10.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video11.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video11.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video12.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video12.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user-video9.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user-video9.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user13.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user13.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user3.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user3.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user4.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user4.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user5.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user5.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user6.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user6.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user7.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user7.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user8.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\user8.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\userlist-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\userlist-1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\userlist-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\userlist-2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\widget-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\widget-bg.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\your-group1.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\your-group1.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\your-group2.jpg",
+      "PackagePath": "staticwebassets\\images\\resources\\your-group2.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\angry-1.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\angry-1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\angry.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\angry.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\bored-1.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\bored-1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\bored-2.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\bored-2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\bored.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\bored.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\confused-1.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\confused-1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\confused.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\confused.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\crying-1.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\crying-1.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\crying.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\crying.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\embarrassed.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\embarrassed.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\emoticons.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\emoticons.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\happy-2.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\happy-2.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\happy-3.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\happy-3.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\happy.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\happy.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\heart.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\heart.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\in-love.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\in-love.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\quiet.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\quiet.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\smile.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\smile.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\smiling.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\smiling.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\suspicious.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\suspicious.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\thumb.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\thumb.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\tongue-out.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\tongue-out.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\unhappy.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\unhappy.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\weep.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\weep.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\smiles\\wink.png",
+      "PackagePath": "staticwebassets\\images\\smiles\\wink.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\star-shape.png",
+      "PackagePath": "staticwebassets\\images\\star-shape.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\time-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\time-bg.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\time-clock.png",
+      "PackagePath": "staticwebassets\\images\\time-clock.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\tv-icon.png",
+      "PackagePath": "staticwebassets\\images\\tv-icon.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\visa-master.png",
+      "PackagePath": "staticwebassets\\images\\visa-master.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\windows.png",
+      "PackagePath": "staticwebassets\\images\\windows.png"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\counterup-t-waypoint.js",
+      "PackagePath": "staticwebassets\\js\\counterup-t-waypoint.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\counterup.min.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\date-time.js",
+      "PackagePath": "staticwebassets\\js\\date-time.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\jquery.wizard-init.js",
+      "PackagePath": "staticwebassets\\js\\jquery.wizard-init.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\jquery.wizard.js",
+      "PackagePath": "staticwebassets\\js\\jquery.wizard.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\map-init.js",
+      "PackagePath": "staticwebassets\\js\\map-init.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\sparkline.js",
+      "PackagePath": "staticwebassets\\js\\sparkline.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\typed.js",
+      "PackagePath": "staticwebassets\\js\\typed.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\uikit.min.js",
+      "PackagePath": "staticwebassets\\js\\uikit.min.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\js\\webcam.min.js",
+      "PackagePath": "staticwebassets\\js\\webcam.min.js"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\eproject_third_semester\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
