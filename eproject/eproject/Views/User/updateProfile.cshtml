@@ -1,0 +1,74 @@
+﻿@model user
+<div class="auth-login">
+	<div class="verticle-center">
+		<div class="signup-form">
+			<h4><i class="icofont-lock"></i> Update/Edit</h4>
+			<form method="post" class="c-form">
+				<div class="row merged-10">
+					@*<div class="col-lg-12"><h4>What type of researcher are you?</h4></div>*@
+					
+						<input type="hidden" placeholder="User Name" name="user_id" value="@Model.user_id"/>
+					
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="User Name" name="user_name" value="@Model.user_name" value="@Model.user_id">
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="User Full Name" name="user_username" Value="@Model.user_username">
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="email" placeholder="Email" name="user_email"@Model.user_email>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="password" placeholder="Password" name="user_password"@Model.user_password>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_phone" @Model.user_phone>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_gender" @Model.user_gender>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_dob" @Model.user_dob>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="hidden" placeholder="Your Phone Number" name="user_image" @Model.user_image>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_country" @Model.user_country>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_city" @Model.user_city>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_address" @Model.user_address>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_marital_status" @Model.user_marital_status>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_qualification" @Model.user_qualification>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_school" @Model.user_school>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_college" @Model.user_college>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_work_status" @Model.user_work_status>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_organization" @Model.user_organization>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-md-6">
+						<input type="text" placeholder="Your Phone Number" name="user_designation" @Model.user_designation>
+					</div>
+					<div>
+						<button class="main-btn" type="submit"><i class="icofont-key"></i> Signup</button>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>

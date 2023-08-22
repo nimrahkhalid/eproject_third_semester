@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GuwgAHbU5xZ/ZIa20dWf/pN5OyZ09TaVHrLk2Iui3aU=",
+  "Hash": "m81g61M6g2+/1LEw/2oBnihh6juuSiuMxPbM0xqCXnU=",
   "Source": "eproject",
   "BasePath": "_content/eproject",
   "Mode": "Default",
@@ -4777,23 +4777,6 @@
       "OriginalItemSpec": "wwwroot\\images\\resources\\uni4.jpg"
     },
     {
-      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user.jpg",
-      "SourceId": "eproject",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
-      "BasePath": "_content/eproject",
-      "RelativePath": "images/resources/user.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\resources\\user.jpg"
-    },
-    {
       "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user1.jpg",
       "SourceId": "eproject",
       "SourceType": "Discovered",
@@ -7206,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\asad.jpg",
+      "SourceId": "eproject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
+      "BasePath": "_content/eproject",
+      "RelativePath": "user_image/asad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user_image\\asad.jpg"
     }
   ]
 }

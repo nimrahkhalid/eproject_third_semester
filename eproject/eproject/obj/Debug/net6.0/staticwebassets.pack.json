@@ -1225,10 +1225,6 @@
       "PackagePath": "staticwebassets\\images\\resources\\user-video9.jpg"
     },
     {
-      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user.jpg",
-      "PackagePath": "staticwebassets\\images\\resources\\user.jpg"
-    },
-    {
       "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\images\\resources\\user1.jpg",
       "PackagePath": "staticwebassets\\images\\resources\\user1.jpg"
     },
@@ -1687,6 +1683,10 @@
     {
       "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\asad.jpg",
+      "PackagePath": "staticwebassets\\user_image\\asad.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.eproject.props",
