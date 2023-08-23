@@ -65,30 +65,41 @@ namespace eproject.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult userRegistration(user user)
+		public IActionResult userRegistration(user user, int user_phone)
 		{
+			if(user.user_phone != user_phone)
+			{
 			_context.tbl_user.Add(user);
 			_context.SaveChanges();
 			return RedirectToAction("Login");
+			}
+			ViewBag.message = "This phone Number Already Registerd";
+			return View();
 		}
 
-		
 
-		public IActionResult Profile()
+
+		public IActionResult profile()
 		{
 			var user = HttpContext.Session.GetString("user_session");
 			if (user != null)
-			{ 
-				var row = _context.tbl_user.Where(u => u.user_id == int.Parse(user)).ToList();
-				return View(row);
-				
+			{
+
+
+				var userdata = _context.tbl_user.Where(a => a.user_id == int.Parse(user)).ToList();
+
+				return View(userdata);
+
 			}
 			else
 			{
 				return RedirectToAction("Login");
 			}
+
+
 		}
-		public IActionResult updateProfile(int id)
+
+		public IActionResult updateprofile(int id)
 		{
 			var user = HttpContext.Session.GetString("user_session");
 			if (user != null)
@@ -106,13 +117,26 @@ namespace eproject.Controllers
 
 
 		}
-
 		[HttpPost]
-		public IActionResult updateProfile(user user)
+		public IActionResult updateprofile(user user, int id)
 		{
-			_context.tbl_user.Update(user);
-			_context.SaveChanges();
-			return RedirectToAction("userprofile");
+			var ad = HttpContext.Session.GetString("user_session");
+			if (ad != null)
+			{
+
+				_context.tbl_user.Update(user);
+				_context.SaveChanges();
+
+
+				return RedirectToAction("profile");
+
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+
 		}
 		public IActionResult changeprofileimage(user user, IFormFile user_image)
 		{

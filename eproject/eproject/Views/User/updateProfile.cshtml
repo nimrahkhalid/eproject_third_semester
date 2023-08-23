@@ -1,7 +1,9 @@
 ﻿@model user
-<div class="auth-login">
-	<div class="verticle-center">
-		<div class="signup-form">
+<div class="auth-login d-flex align-items-center justify-content-center" style="width:100%"4>
+	
+	
+	<div class="col-md-8 verticle-center">
+		<div class="signup-form ">
 			<h4><i class="icofont-lock"></i> Update/Edit</h4>
 			<form method="post" class="c-form">
 				<div class="row merged-10">
@@ -9,66 +11,67 @@
 					
 						<input type="hidden" placeholder="User Name" name="user_id" value="@Model.user_id"/>
 					
-					<div class="col-lg-6 col-sm-6 col-md-6">
+					<div class="col-lg-4 col-sm-4 col-md-4">
 						<input type="text" placeholder="User Name" name="user_name" value="@Model.user_name" value="@Model.user_id">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
+					<div class="col-lg-4 col-sm-4 col-md-4">
 						<input type="text" placeholder="User Full Name" name="user_username" Value="@Model.user_username">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="email" placeholder="Email" name="user_email"@Model.user_email>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="email" placeholder="Email" name="user_email"Value="@Model.user_email">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="password" placeholder="Password" name="user_password"@Model.user_password>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="password" placeholder="Password" name="user_password"Value="@Model.user_password">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_phone" @Model.user_phone>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Your Phone Number" name="user_phone" Value="@Model.user_phone">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_gender" @Model.user_gender>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Gender" name="user_gender"Value=" @Model.user_gender">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_dob" @Model.user_dob>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Date Of Birth" name="user_dob"Value=" @Model.user_dob">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="hidden" placeholder="Your Phone Number" name="user_image" @Model.user_image>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Country" name="user_country"Value=" @Model.user_country">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_country" @Model.user_country>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="City" name="user_city" Value="@Model.user_city">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_city" @Model.user_city>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Address" name="user_address" Value="@Model.user_address">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_address" @Model.user_address>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Marital Status " name="user_marital_status" Value="@Model.user_marital_status">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_marital_status" @Model.user_marital_status>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Qulification" name="user_qualification" Value="@Model.user_qualification">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_qualification" @Model.user_qualification>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="School" name="user_school" Value="@Model.user_school">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_school" @Model.user_school>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Collage" name="user_college" Value="@Model.user_college">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_college" @Model.user_college>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Work Status" name="user_work_status" Value="@Model.user_work_status">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_work_status" @Model.user_work_status>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Organization" name="user_organization" Value="@Model.user_organization">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_organization" @Model.user_organization>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="text" placeholder="Designation" name="user_designation" Value="@Model.user_designation">
 					</div>
-					<div class="col-lg-6 col-sm-6 col-md-6">
-						<input type="text" placeholder="Your Phone Number" name="user_designation" @Model.user_designation>
+					<div class="col-lg-4 col-sm-4 col-md-4">
+						<input type="hidden" placeholder="Image" name="user_image" Value="@Model.user_image">
 					</div>
 					<div>
-						<button class="main-btn" type="submit"><i class="icofont-key"></i> Signup</button>
+						<button class="main-btn" type="submit"><i class="icofont-key"></i> Update</button>
 					</div>
 				</div>
 			</form>
 
 		</div>
 	</div>
+	
 </div>
