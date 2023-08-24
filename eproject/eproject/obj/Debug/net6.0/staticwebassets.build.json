@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m81g61M6g2+/1LEw/2oBnihh6juuSiuMxPbM0xqCXnU=",
+  "Hash": "l0rQG99OX5j4KJujuIK93naUfslN3hbK5lwYLaQV2tw=",
   "Source": "eproject",
   "BasePath": "_content/eproject",
   "Mode": "Default",
@@ -7191,6 +7191,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\1672929855073.jpeg",
+      "SourceId": "eproject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
+      "BasePath": "_content/eproject",
+      "RelativePath": "user_image/1672929855073.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user_image\\1672929855073.jpeg"
+    },
+    {
       "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\asad.jpg",
       "SourceId": "eproject",
       "SourceType": "Discovered",
@@ -7206,6 +7223,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\user_image\\asad.jpg"
+    },
+    {
+      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\IMG_20230309_195956.jpg",
+      "SourceId": "eproject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
+      "BasePath": "_content/eproject",
+      "RelativePath": "user_image/IMG_20230309_195956.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user_image\\IMG_20230309_195956.jpg"
+    },
+    {
+      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\t-12.jpg",
+      "SourceId": "eproject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
+      "BasePath": "_content/eproject",
+      "RelativePath": "user_image/t-12.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user_image\\t-12.jpg"
+    },
+    {
+      "Identity": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\WhatsApp Image 2023-03-11 at 01.41.22.jpg",
+      "SourceId": "eproject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\",
+      "BasePath": "_content/eproject",
+      "RelativePath": "user_image/WhatsApp Image 2023-03-11 at 01.41.22.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user_image\\WhatsApp Image 2023-03-11 at 01.41.22.jpg"
     }
   ]
 }

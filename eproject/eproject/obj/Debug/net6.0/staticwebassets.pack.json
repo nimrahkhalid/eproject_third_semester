@@ -1685,8 +1685,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\1672929855073.jpeg",
+      "PackagePath": "staticwebassets\\user_image\\1672929855073.jpeg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\IMG_20230309_195956.jpg",
+      "PackagePath": "staticwebassets\\user_image\\IMG_20230309_195956.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\WhatsApp Image 2023-03-11 at 01.41.22.jpg",
+      "PackagePath": "staticwebassets\\user_image\\WhatsApp Image 2023-03-11 at 01.41.22.jpg"
+    },
+    {
       "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\asad.jpg",
       "PackagePath": "staticwebassets\\user_image\\asad.jpg"
+    },
+    {
+      "Id": "E:\\New folder (2)\\eproject\\eproject\\wwwroot\\user_image\\t-12.jpg",
+      "PackagePath": "staticwebassets\\user_image\\t-12.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.eproject.props",

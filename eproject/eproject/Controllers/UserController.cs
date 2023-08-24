@@ -5,48 +5,48 @@ using Microsoft.EntityFrameworkCore;
 namespace eproject.Controllers
 {
 
-    public class UserController : Controller
-    {
-        private mycontext _context;
-        private IWebHostEnvironment _env;
+	public class UserController : Controller
+	{
+		private mycontext _context;
+		private IWebHostEnvironment _env;
 
-        public UserController(mycontext context, IWebHostEnvironment env)
-        {
-            _context = context;
-            _env = env;
-        }
-        public IActionResult Index()
-        {
-            string user_session = HttpContext.Session.GetString("user_session");
-            if (user_session != null)
-            {
-                return View();
-            }
-            else
-            {
-                return RedirectToAction("login");
-            }
-        }
+		public UserController(mycontext context, IWebHostEnvironment env)
+		{
+			_context = context;
+			_env = env;
+		}
+		public IActionResult Index()
+		{
+			string user_session = HttpContext.Session.GetString("user_session");
+			if (user_session != null)
+			{
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("login");
+			}
+		}
 
-        public IActionResult Login()
-        {
-            return View();
-        }
+		public IActionResult Login()
+		{
+			return View();
+		}
 
-        [HttpPost]
-        public IActionResult Login(string userEmail, string userPassword)
-        {
-            var row = _context.tbl_user.FirstOrDefault(a => a.user_email == userEmail);
-            if (row != null && row.user_password == userPassword)
-            {
-                HttpContext.Session.SetString("user_session", row.user_id.ToString());
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                ViewBag.message = "Incorrect Username or Password";
-                return View();
-            }
+		[HttpPost]
+		public IActionResult Login(string userEmail, string userPassword)
+		{
+			var row = _context.tbl_user.FirstOrDefault(a => a.user_email == userEmail);
+			if (row != null && row.user_password == userPassword)
+			{
+				HttpContext.Session.SetString("user_session", row.user_id.ToString());
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				ViewBag.message = "Incorrect Username or Password";
+				return View();
+			}
 
 
 		}
@@ -67,11 +67,11 @@ namespace eproject.Controllers
 		[HttpPost]
 		public IActionResult userRegistration(user user, int user_phone)
 		{
-			if(user.user_phone != user_phone)
+			if (user.user_phone != user_phone)
 			{
-			_context.tbl_user.Add(user);
-			_context.SaveChanges();
-			return RedirectToAction("Login");
+				_context.tbl_user.Add(user);
+				_context.SaveChanges();
+				return RedirectToAction("Login");
 			}
 			ViewBag.message = "This phone Number Already Registerd";
 			return View();
@@ -138,7 +138,27 @@ namespace eproject.Controllers
 
 
 		}
-		public IActionResult changeprofileimage(user user, IFormFile user_image)
+		public IActionResult changeuserimage(int id)
+		{
+			var users = HttpContext.Session.GetString("user_session");
+			if (users != null)
+			{
+				var user = _context.tbl_user.Find(id);
+
+
+
+				return View(user);
+
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+
+		}
+		[HttpPost]
+		public IActionResult changeuserimage(user user, IFormFile user_image)
 		{
 			string ImagePath = Path.Combine(_env.WebRootPath, "user_image", user_image.FileName);
 			FileStream fs = new FileStream(ImagePath, FileMode.Create);
@@ -147,6 +167,23 @@ namespace eproject.Controllers
 			_context.tbl_user.Update(user);
 			_context.SaveChanges();
 			return RedirectToAction("Profile");
+		}
+
+		public IActionResult fetchusers()
+		{
+			var admin = HttpContext.Session.GetString("user_session");
+			if (admin != null)
+			{
+
+				return View(_context.tbl_user.ToList());
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+
+
 		}
 	}
 }

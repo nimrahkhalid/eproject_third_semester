@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from wpkixx.com/html/socimo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Aug 2023 18:34:11 GMT -->
@@ -103,7 +104,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="mesg-notif" href="#" title="Messages" data-toggle="tooltip">
+						<a class="mesg-notif" href="@Url.Action("fetchusers","User")" title="Friend List" data-toggle="tooltip">
 							<i>
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
 							</i>
@@ -151,47 +152,66 @@
 
 		<nav class="sidebar">
 			<ul class="menu-slide">
-				<li class="active menu">
-					<a class="" title="">
-						<i><svg id="icon-home" class="feather feather-home" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="../../../www.w3.org/2000/svg.html"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg></i> Home
-					</a>
-
-				</li>
 				<li class="menu">
-					<a class="" href="#" title="">
-						<svg id="ab7" class="feather feather-zap" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="../../../www.w3.org/2000/svg.html"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg> Features
-					</a>
-
-
-				</li>
-
-				<li class="menu">
-					<a class="" href="#" title="">
+					<a class=""href="@Url.Action("Profile","User")" title="">
 						<i class="">
-							<svg id="ab2" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-List"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
-						</i> find Friends
+							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"></svg>
+						</i> Profile
+					</a>
+				</li>
+				<li class="menu">
+					<a class="fa-solid fa-house"
+					href="@Url.Action("Index","User")"title="">
+						<i><svg id="icon-home" class="fa-solid fa-house" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="../../../www.w3.org/2000/svg.html"></svg></i> Home
 					</a>
 
+				</li>
+				
+
+				<li class="menu">
+					<a class="" href="@Url.Action("fetchusers","User")" title="">
+						<i class="">
+							<svg id="ab2" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-List"></svg>
+						</i>find Friends
+					</a>
+
+				</li>
+
+
+				<li class="menu">
+					<a class="" href=" @Url.Action("Profile","User")"title="">
+						<i class="">
+							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"></svg>
+						</i> chat
+					</a>
 				</li>
 
 
 				<li class="menu">
 					<a class="" href="messages.html" title="">
 						<i class="">
-							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" style="stroke-dasharray: 68, 88; stroke-dashoffset: 0;" /></svg>
-						</i> Chat
-					</a>
-				</li>
-
-
-				<li class="menu">
-					<a class="" href="messages.html" title="">
-						<i class="">
-							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" style="stroke-dasharray: 68, 88; stroke-dashoffset: 0;" /></svg>
+							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"></svg>
 						</i>Friends
 					</a>
 				</li>
+				<li class="menu-item-has-children">
+					<a class="" href="#" title="">
+						<i><svg id="icon-home" class="feather feather-home" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="../../../www.w3.org/2000/svg.html"></svg></i> Settings
+					</a>
+					<ul class="submenu">
+			@*			<li><a href="@Url.Action("updateProfile","User",new{id=Model.user_id})" title="">Edit Profile </a></li>
+						<li><a href="@Url.Action("changeuserimage","User",new{id=Model.user_id})" title="">Change Profile Imagge</a></li>*@
+					</ul>
+			    </li>
+				<li class="menu">
+					<a class="" href="@Url.Action("Logout","User")" title="">
+						<i class="logout">
+							<svg class="icofont-power"  stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"></svg>
+						</i>LoG OuT
+					</a>
+				</li>
 			</ul>
+			
 
 		</nav><!-- nav sidebar -->
 

@@ -1,0 +1,95 @@
+﻿@model user
+<body class="bg-primary">
+<div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="card-header"><h3 class="text-center font-weight-light my-4"> Change Image</h3></div>
+                            <div class="card-body">
+                                <img src="@("~/user_image/"+Model.user_image)" asp-append-version="true" width="250px"
+                                     height="250px">
+                                <form method="post" enctype="multipart/form-data">
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3 mb-md-0">
+													<input type="hidden" placeholder="User Name" name="user_id" value="@Model.user_id" />
+
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="User Name" name="user_name" value="@Model.user_name">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="User Full Name" name="user_username" Value="@Model.user_username">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Email" name="user_email" Value="@Model.user_email">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Password" name="user_password" Value="@Model.user_password">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Your Phone Number" name="user_phone" Value="@Model.user_phone">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Gender" name="user_gender" Value=" @Model.user_gender">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Date Of Birth" name="user_dob" Value=" @Model.user_dob">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Country" name="user_country" Value=" @Model.user_country">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="City" name="user_city" Value="@Model.user_city">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Address" name="user_address" Value="@Model.user_address">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Marital Status " name="user_marital_status" Value="@Model.user_marital_status">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Qulification" name="user_qualification" Value="@Model.user_qualification">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="School" name="user_school" Value="@Model.user_school">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Collage" name="user_college" Value="@Model.user_college">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Work Status" name="user_work_status" Value="@Model.user_work_status">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Organization" name="user_organization" Value="@Model.user_organization">
+													</div>
+													<div class="col-lg-4 col-sm-4 col-md-4">
+														<input type="hidden" placeholder="Designation" name="user_designation" Value="@Model.user_designation">
+													</div>
+
+													<div class="form-control">
+														<input type="file" placeholder="Image" name="user_image">
+													</div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 mb-0">
+                                        <input type="submit" value="change Profile" class="btn btn-primary form-control " />
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</div>
+</body>
+ 

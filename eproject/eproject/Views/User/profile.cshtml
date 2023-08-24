@@ -29,8 +29,10 @@
                                                     </i>
                                                     <ul>
                                                         <li>
+                                                            <a href="@Url.Action("changeuserimage","User",new{id=Model[0].user_id})">
                                                             <i class="icofont-pen-alt-1"></i>change profile
                                                             <span>user change profile image</span>
+                                                            </a>
                                                         </li>
                                                         <li>
                                                             <a href="@Url.Action("updateProfile","User",new{id=Model[0].user_id})">
@@ -88,11 +90,15 @@
                                             <li>designation: <span>@Model[0].user_designation</span></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div>  
                                 <div>
-                                    <a href="@Url.Action("updateProfile","User",new{id=Model[0].user_id})" class="icofont-key">
+                                    <a href="@Url.Action("updateProfile","User",new{id=Model[0].user_id})" class="icofont-pen">
                                         Update profile
                                     </a>
+                                    <a href="@Url.Action("changeuserimage","User",new{id=Model[0].user_id})" class="icofont-people">
+                                        change profile image
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
