@@ -65,21 +65,26 @@ namespace eproject.Controllers
 		}
 
 		[HttpPost]
-		public IActionResult userRegistration(user user, int user_phone)
+		public IActionResult UserRegistration(user user, int user_phone)
 		{
-			if (user.user_phone != user_phone)
+			// Check if the phone number already exists in the database
+			if (_context.tbl_user.Any(u => u.user_phone == user_phone))
 			{
-				_context.tbl_user.Add(user);
-				_context.SaveChanges();
-				return RedirectToAction("Login");
+				ViewBag.Message = "This phone number is already registered.";
+				return View();
 			}
-			ViewBag.message = "This phone Number Already Registerd";
-			return View();
+
+			// If the phone number is not registered, add the user to the database
+			_context.tbl_user.Add(user);
+			_context.SaveChanges();
+
+			return RedirectToAction("Login");
 		}
+	
 
 
 
-		public IActionResult profile()
+	    public IActionResult profile()
 		{
 			var user = HttpContext.Session.GetString("user_session");
 			if (user != null)
@@ -175,12 +180,33 @@ namespace eproject.Controllers
 			if (admin != null)
 			{
 
-				return View(_context.tbl_user.ToList());
+				return View(_context.tbl_user.Where(u=>u.user_id!=int.Parse(admin)).ToList());
 			}
 			else
 			{
 				return RedirectToAction("Login");
 			}
+
+
+
+
+
+		}
+
+		public IActionResult Chat()
+		{
+			var admin = HttpContext.Session.GetString("user_session");
+			if (admin != null)
+			{
+
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+
 
 
 

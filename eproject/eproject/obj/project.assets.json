@@ -10682,19 +10682,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Annas K Arain\\.nuget\\packages\\": {}
+    "C:\\Users\\Alee\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\eproject_third_semester\\eproject\\eproject\\eproject.csproj",
+      "projectUniqueName": "E:\\New folder (2)\\eproject\\eproject\\eproject.csproj",
       "projectName": "eproject",
-      "projectPath": "E:\\eproject_third_semester\\eproject\\eproject\\eproject.csproj",
-      "packagesPath": "C:\\Users\\Annas K Arain\\.nuget\\packages\\",
-      "outputPath": "E:\\eproject_third_semester\\eproject\\eproject\\obj\\",
+      "projectPath": "E:\\New folder (2)\\eproject\\eproject\\eproject.csproj",
+      "packagesPath": "C:\\Users\\Alee\\.nuget\\packages\\",
+      "outputPath": "E:\\New folder (2)\\eproject\\eproject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Annas K Arain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10702,6 +10706,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10758,7 +10763,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,8 +7,11 @@ namespace eproject.Models
         public mycontext(DbContextOptions<mycontext> options) : base(options)
         {
         }
-            public DbSet<user> tbl_user { get; set; }
+        public DbSet<user> tbl_user { get; set; }
         public DbSet<friends> tbl_friends { get; set; }
+        public DbSet<chat> tbl_chat { get; set; }
+        public DbSet<Friendrequest> tbl_friendrequest { get; set; }
+
     }
     
 }
