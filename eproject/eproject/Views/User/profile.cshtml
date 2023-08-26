@@ -65,47 +65,51 @@
                                     <h5 class="main-title">Personal Details</h5>
                                     <div class="info-block-list">
                                         <ul>
-                                            <li>Email: <span>@Model[0].user_email</span></li>
-                                            <li>Password: <span>@Model[0].user_password</span></li>
-                                            <li>Phone: <span>@Model[0].user_phone</span></li>
-                                            <li>Gender: <span>@Model[0].user_gender</span></li>
-                                            <li>Date of Birth: <span>@Model[0].user_dob</span></li>
-                                            <li>Country: <span>@Model[0].user_country</span></li>
-                                            <li>City: <span>@Model[0].user_city</span></li>
-                                            <li>Address: <span>@Model[0].user_address</span></li>
-                                            <li>Marital_status: <span>@Model[0].user_marital_status</span></li>
+                                            <li>Email : <span>@Model[0].user_email</span></li>
+                                         @*   <li >Password: <span>@Model[0].user_password</span></li>*@
+                                            <li>Phone :<span>+92 @Model[0].user_phone</span></li>
+                                            <li>Gender : <span>@Model[0].user_gender</span></li>
+                                            <li>Date of Birth : <span>@Model[0].user_dob</span></li>
+                                            <li>Country : <span>@Model[0].user_country</span></li>
+                                            <li>City : <span>@Model[0].user_city</span></li>
+                                            <li>Address : <span>@Model[0].user_address</span></li>
+                                            <li>Marital status : <span>@Model[0].user_marital_status</span></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="main-wraper">
                                     <h5 class="main-title">Professional Details</h5>
                                     <div class="info-block-list">
-                                        <ul>
+                                       <ul>
                                          
-                                            <li>Qualification: <span>@Model[0].user_qualification</span></li>
-                                            <li>School: <span>@Model[0].user_school</span></li>
-                                            <li>College: <span>@Model[0].user_college</span></li>
-                                            <li>Work_status: <span>@Model[0].user_work_status</span></li>
-                                            <li>Organization: <span>@Model[0].user_organization</span></li>
-                                            <li>Designation: <span>@Model[0].user_designation</span></li>
-                                        </ul
+                                            <li>Qualification : <span>@Model[0].user_qualification</span></li>
+                                            <li>School : <span>@Model[0].user_school</span></li>
+                                            <li>College : <span>@Model[0].user_college</span></li>
+                                            <li>Work status : <span>@Model[0].user_work_status</span></li>
+                                            <li>Organization : <span>@Model[0].user_organization</span></li>
+                                            <li>Designation : <span>@Model[0].user_designation</span></li>
+                                      </ul>
                                     </div>
                                 </div>  
-                                <div>
+                             <div>
+                                 
                                     <a href="@Url.Action("updateProfile","User",new{id=Model[0].user_id})" class="icofont-pen">
                                         Update profile
                                     </a>
+                                    <br><br>
                                     <a href="@Url.Action("changeuserimage","User",new{id=Model[0].user_id})" class="icofont-people">
                                         Change profile image
                                     </a>
 
-                                </div>
+                             </div>
+                               
                             </div>
+                             
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+    
 </section>
