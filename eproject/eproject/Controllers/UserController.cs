@@ -211,5 +211,71 @@ namespace eproject.Controllers
 
 
 		}
-	}
+		[HttpPost]
+       public IActionResult CreateFriendRequest(int senderId, int receiverId)
+       {
+			var request = new Friendrequest
+			{
+				sender_id = senderId,
+				receiver_id = receiverId,
+				req_status = "Pending"
+			};
+
+            _context.Add(request);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "User"); // Redirect to wherever you want
+       }
+
+        // List all friend requests
+        public IActionResult ListFriendRequests()
+        {
+            var requests = _context.tbl_friendrequest.ToList();
+            return View(requests);
+        }
+
+        // Accept a friend request
+        [HttpPost]
+        public IActionResult AcceptFriendRequest(int reqId)
+        {
+            var request = _context.tbl_friendrequest.Find(reqId);
+            if (request != null)
+            {
+                request.req_status = "Accepted";
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("ListFriendRequests");
+        }
+
+        // Reject a friend request
+        [HttpPost]
+        public IActionResult RejectFriendRequest(int reqId)
+        {
+            var request = _context.tbl_friendrequest.Find(reqId);
+            if (request != null)
+            {
+                request.req_status = "Rejected";
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("ListFriendRequests");
+        }
+
+        // Delete a friend request
+        [HttpPost]
+        public IActionResult DeleteFriendRequest(int reqId)
+        {
+            var request = _context.tbl_friendrequest.Find(reqId);
+            if (request != null)
+            {
+                _context.tbl_friendrequest.Remove(request);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("ListFriendRequests");
+        }
+    }
 }
+
+
