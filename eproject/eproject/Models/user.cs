@@ -24,5 +24,6 @@ namespace eproject.Models
         public string? user_work_status { get; set; }
         public string? user_organization { get; set; }
         public string? user_designation { get; set; }
+
     }
 }

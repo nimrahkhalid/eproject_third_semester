@@ -10,7 +10,7 @@ namespace eproject.Models
 		public int receiver_id { get; set; }
 		public string req_status { get; set; }
 
+        
 
-
-	}
+    }
 }

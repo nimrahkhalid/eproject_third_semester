@@ -230,7 +230,8 @@ namespace eproject.Controllers
         // List all friend requests
         public IActionResult ListFriendRequests()
         {
-            var requests = _context.tbl_friendrequest.ToList();
+			var requests = _context.tbl_friendrequest
+			 .Where(r => r.req_status == "Pending").ToList();
             return View(requests);
         }
 
@@ -242,11 +243,29 @@ namespace eproject.Controllers
             if (request != null)
             {
                 request.req_status = "Accepted";
+
+                // Add the users to the 'Friends' table
+                var newFriendship = new friends
+                {
+                    user_id = request.sender_id
+                };
+
+                var currentUserFriendship = new friends
+                {
+                    user_id = request.receiver_id
+                };
+
+                _context.tbl_friends.Add(newFriendship);
+                _context.tbl_friends.Add(currentUserFriendship);
+
                 _context.SaveChanges();
             }
 
             return RedirectToAction("ListFriendRequests");
         }
+        
+      
+
 
         // Reject a friend request
         [HttpPost]
