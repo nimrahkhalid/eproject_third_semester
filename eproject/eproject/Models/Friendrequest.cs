@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace eproject.Models
 {
@@ -10,7 +11,11 @@ namespace eproject.Models
 		public int receiver_id { get; set; }
 		public string req_status { get; set; }
 
-        
+        [ForeignKey("sender_id")]
+        public user user { get; set; }
+
+
+
 
     }
 }

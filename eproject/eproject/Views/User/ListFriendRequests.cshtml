@@ -14,8 +14,8 @@
                                     {
                                         <div class="friend-request">
                                             <div class="friend-request-user">
-                                                <img src="~/user_image/@request.sender_id." alt="User Image" />
-                                                <span>@request.sender_id</span>
+                                                <img src="~/user_image/@request.user.user_image" alt="User Image" />
+                                                <span>@request.user.user_name</span>
                                             </div>
                                             <div class="friend-request-buttons">
                                                 <form asp-controller="User" asp-action="AcceptFriendRequest" method="post">

@@ -174,21 +174,13 @@
 
 
 				<li class="menu">
-					<a class="" href="messages.html" title="">
+					<a class="" href="@Url.Action("friends","User")" title="">
 						<i class="">
 							<svg class="feather feather-message-square" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg" id="ab2"></svg>
 						</i>Friends
 					</a>
 				</li>
-				<li class="menu-item-has-children">
-					<a class="" href="#" title="">
-						<i><svg id="icon-home" class="feather feather-home" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="../../../www.w3.org/2000/svg.html"></svg></i> Settings
-					</a>
-					<ul class="submenu">
-			@*			<li><a href="@Url.Action("updateProfile","User",new{id=Model.user_id})" title="">Edit Profile </a></li>
-						<li><a href="@Url.Action("changeuserimage","User",new{id=Model.user_id})" title="">Change Profile Imagge</a></li>*@
-					</ul>
-			    </li>
+				
 				<li class="menu">
 					<a class="" href="@Url.Action("Logout","User")" title="">
 						<i class="logout">

@@ -80,11 +80,11 @@ namespace eproject.Controllers
 
 			return RedirectToAction("Login");
 		}
-	
 
 
 
-	    public IActionResult profile()
+
+		public IActionResult profile()
 		{
 			var user = HttpContext.Session.GetString("user_session");
 			if (user != null)
@@ -180,7 +180,7 @@ namespace eproject.Controllers
 			if (admin != null)
 			{
 
-				return View(_context.tbl_user.Where(u=>u.user_id!=int.Parse(admin)).ToList());
+				return View(_context.tbl_user.Where(u => u.user_id != int.Parse(admin)).ToList());
 			}
 			else
 			{
@@ -195,8 +195,8 @@ namespace eproject.Controllers
 
 		public IActionResult Chat()
 		{
-			var admin = HttpContext.Session.GetString("user_session");
-			if (admin != null)
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
 			{
 
 				return View();
@@ -211,90 +211,158 @@ namespace eproject.Controllers
 
 
 		}
-		[HttpPost]
-       public IActionResult CreateFriendRequest(int senderId, int receiverId)
-       {
-			var request = new Friendrequest
+		public IActionResult friends()
+		{
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
 			{
-				sender_id = senderId,
-				receiver_id = receiverId,
-				req_status = "Pending"
-			};
 
-            _context.Add(request);
-            _context.SaveChanges();
+				return View(_context.tbl_friends.Where(f => f.user_id == int.Parse(user)).Include(c => c.user).ToList());
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+		}
 
-            return RedirectToAction("Index", "User"); // Redirect to wherever you want
-       }
-
-        // List all friend requests
-        public IActionResult ListFriendRequests()
-        {
-			var requests = _context.tbl_friendrequest
-			 .Where(r => r.req_status == "Pending").ToList();
-            return View(requests);
-        }
-
-        // Accept a friend request
-        [HttpPost]
-        public IActionResult AcceptFriendRequest(int reqId)
-        {
-            var request = _context.tbl_friendrequest.Find(reqId);
-            if (request != null)
-            {
-                request.req_status = "Accepted";
-
-                // Add the users to the 'Friends' table
-                var newFriendship = new friends
-                {
-                    user_id = request.sender_id
-                };
-
-                var currentUserFriendship = new friends
-                {
-                    user_id = request.receiver_id
-                };
-
-                _context.tbl_friends.Add(newFriendship);
-                _context.tbl_friends.Add(currentUserFriendship);
-
-                _context.SaveChanges();
-            }
-
-            return RedirectToAction("ListFriendRequests");
-        }
-        
-      
+		[HttpPost]
+		public IActionResult CreateFriendRequest(int senderId, int receiverId)
+		{
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
+			{
+				var request = new Friendrequest
+				{
+					sender_id = int.Parse(user),
+					receiver_id = receiverId,
+					req_status = "Pending"
 
 
-        // Reject a friend request
-        [HttpPost]
-        public IActionResult RejectFriendRequest(int reqId)
-        {
-            var request = _context.tbl_friendrequest.Find(reqId);
-            if (request != null)
-            {
-                request.req_status = "Rejected";
-                _context.SaveChanges();
-            }
+				};
+				_context.Add(request);
+				_context.SaveChanges();
 
-            return RedirectToAction("ListFriendRequests");
-        }
+				return RedirectToAction("fetchusers", "User"); // Redirect to wherever you want
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
 
-        // Delete a friend request
-        [HttpPost]
-        public IActionResult DeleteFriendRequest(int reqId)
-        {
-            var request = _context.tbl_friendrequest.Find(reqId);
-            if (request != null)
-            {
-                _context.tbl_friendrequest.Remove(request);
-                _context.SaveChanges();
-            }
 
-            return RedirectToAction("ListFriendRequests");
-        }
-    }
+
+		}
+
+		// List all friend requests
+		public IActionResult ListFriendRequests()
+		{
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
+			{
+				var requests = _context.tbl_friendrequest
+				 .Where(r => r.req_status == "Pending" && r.receiver_id == int.Parse(user)).Include(c => c.user).ToList();
+				return View(requests);
+
+
+
+			}
+			else
+			{
+				return RedirectToAction("Login", "User");
+
+			}
+		}
+
+		// Accept a friend request
+		[HttpPost]
+		public IActionResult AcceptFriendRequest(int reqId)
+		{
+			var request = _context.tbl_friendrequest.Find(reqId);
+			if (request != null)
+			{
+				request.req_status = "Accepted";
+
+				// Add the users to the 'Friends' table
+				var newFriendship = new friends
+				{
+					user_id = request.sender_id
+				};
+
+				var currentUserFriendship = new friends
+				{
+					user_id = request.receiver_id
+				};
+
+				_context.tbl_friends.Add(newFriendship);
+				_context.tbl_friends.Add(currentUserFriendship);
+
+				_context.SaveChanges();
+			}
+
+			return RedirectToAction("ListFriendRequests");
+		}
+
+
+
+
+		// Reject a friend request
+		[HttpPost]
+		public IActionResult RejectFriendRequest(int reqId)
+		{
+			var request = _context.tbl_friendrequest.Find(reqId);
+			if (request != null)
+			{
+				request.req_status = "Rejected";
+				_context.SaveChanges();
+			}
+
+			return RedirectToAction("ListFriendRequests");
+		}
+
+		// Delete a friend request
+		[HttpPost]
+		public IActionResult DeleteFriendRequest(int reqId)
+		{
+			var request = _context.tbl_friendrequest.Find(reqId);
+			if (request != null)
+			{
+				_context.tbl_friendrequest.Remove(request);
+				_context.SaveChanges();
+			}
+
+			return RedirectToAction("ListFriendRequests");
+		}
+
+		public IActionResult News()
+		{
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
+			{
+
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+		}
+
+		public IActionResult Jokes()
+		{
+			var user = HttpContext.Session.GetString("user_session");
+			if (user != null)
+			{
+
+				return View();
+			}
+			else
+			{
+				return RedirectToAction("Login");
+			}
+
+		}
+	}
 }
 
 
