@@ -9,89 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eproject
 build_property.RootNamespace = eproject
-build_property.ProjectDir = E:\New folder (2)\eproject\eproject\
+build_property.ProjectDir = E:\eproject_third_semester\eproject\eproject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\New folder (2)\eproject\eproject
+build_property.MSBuildProjectDirectory = E:\eproject_third_semester\eproject\eproject
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/New folder (2)/eproject/eproject/Views/Home/Index.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/Home/Privacy.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/Shared/Error.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/changeuserimage.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/changeuserimage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjaGFuZ2V1c2VyaW1hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/Chat.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/Chat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/fetchusers.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/fetchusers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxmZXRjaHVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/friends.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/friends.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxmcmllbmRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/Index.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/Jokes.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/Jokes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxKb2tlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/ListFriendRequests.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/ListFriendRequests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0RnJpZW5kUmVxdWVzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/Login.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/News.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxOZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/profile.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxwcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/updateProfile.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/Sports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/eproject_third_semester/eproject/eproject/Views/User/updateProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1cGRhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/userRegistration.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/userRegistration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2VyUmVnaXN0cmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/User/userspartialview.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/User/userspartialview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2Vyc3BhcnRpYWx2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/_ViewImports.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/_ViewStart.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/New folder (2)/eproject/eproject/Views/Shared/_Layout.cshtml]
+[E:/eproject_third_semester/eproject/eproject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5sjsc93sa9

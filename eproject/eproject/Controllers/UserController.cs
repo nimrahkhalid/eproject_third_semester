@@ -362,7 +362,22 @@ namespace eproject.Controllers
 			}
 
 		}
-	}
+
+        public IActionResult Sports()
+        {
+            var user = HttpContext.Session.GetString("user_session");
+            if (user != null)
+            {
+
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }
+
+        }
+    }
 }
 
 
